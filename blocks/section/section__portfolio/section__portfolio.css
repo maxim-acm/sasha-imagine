@@ -1,0 +1,35 @@
+.filter {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.filter__list {
+    display: inline-block;
+}
+
+.filter__item {
+    display: inline-block;
+    margin: 20px 10px 20px ;
+}
+
+.filter__link {
+    display: block;
+    padding: 0 25px;
+    line-height: 34px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.filter__link-active {
+    background: #262626;
+}
+
+
+button {
+    -webkit-appearance: none;
+}
